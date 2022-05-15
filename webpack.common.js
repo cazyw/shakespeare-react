@@ -10,6 +10,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
+            favicon: path.resolve(__dirname,"public/favicon.ico"),
             template: path.resolve(__dirname, 'public/index.html'),
         }),
     ],
