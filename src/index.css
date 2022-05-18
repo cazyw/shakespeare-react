@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: rgb(84, 84, 84);
+  background: rgb(159, 137, 100) url('./paper2_med.jpg');
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 100% auto;
+  background-attachment: fixed;
 }
 
 code {
